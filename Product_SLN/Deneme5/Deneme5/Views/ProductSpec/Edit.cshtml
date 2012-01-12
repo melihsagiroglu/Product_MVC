@@ -1,0 +1,43 @@
+﻿@model Deneme5.Models.ProductSpec
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>ProductSpec</legend>
+
+        @Html.HiddenFor(model => model.ProductSpecID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProductID, "Product")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ProductID", String.Empty)
+            @Html.ValidationMessageFor(model => model.ProductID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SpecificationID, "Specification")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("SpecificationID", String.Empty)
+            @Html.ValidationMessageFor(model => model.SpecificationID)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

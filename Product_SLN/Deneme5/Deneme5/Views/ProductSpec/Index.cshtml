@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Deneme5.Models.ProductSpec>
+
+@{
+    ViewBag.Title = "Product Specifications";
+}
+
+<h2>Product Specifications</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Product
+        </th>
+        <th>
+            Specification
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Specification.SpecName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductSpecID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProductSpecID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProductSpecID })
+        </td>
+    </tr>
+}
+
+</table>

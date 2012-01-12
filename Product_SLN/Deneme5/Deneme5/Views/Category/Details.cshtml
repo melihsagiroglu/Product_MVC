@@ -1,0 +1,25 @@
+﻿@model Deneme5.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Category</legend>
+
+    <div class="display-label">CategoryName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CategoryName)
+    </div>
+
+    <div class="display-label">ParentCategory</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ParentCategory.CategoryName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CategoryID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

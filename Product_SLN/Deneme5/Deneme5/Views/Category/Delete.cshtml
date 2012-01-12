@@ -1,0 +1,28 @@
+﻿@model Deneme5.Models.Category
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Category</legend>
+
+    <div class="display-label">CategoryName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CategoryName)
+    </div>
+
+    <div class="display-label">ParentCategory</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ParentCategory.CategoryName)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

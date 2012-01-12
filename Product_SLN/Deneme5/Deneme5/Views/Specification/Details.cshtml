@@ -1,0 +1,20 @@
+﻿@model Deneme5.Models.Specification
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Specification</legend>
+
+    <div class="display-label">SpecName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SpecName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.SpecificationID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

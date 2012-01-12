@@ -1,0 +1,48 @@
+﻿@model Deneme5.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Product</legend>
+
+    <div class="display-label">Category</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Category.CategoryName)
+    </div>
+
+    <div class="display-label">ProductName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ProductName)
+    </div>
+
+    <div class="display-label">RecordTime</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RecordTime)
+    </div>
+</fieldset>
+<div class="display-label">
+    @Html.LabelFor(model => model.ProductSpec,"Specifications")
+</div>
+<div class="display-field">
+    <table>
+        <tr>
+            <th>Specifications</th>
+        </tr>
+        @foreach (var item in Model.ProductSpec)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Specification.SpecName)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ProductID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

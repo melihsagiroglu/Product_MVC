@@ -1,0 +1,21 @@
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\bin\Deneme5.dll
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\bin\Deneme5.pdb
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\bin\EntityFramework.dll
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\bin\EntityFramework.xml
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\obj\Debug\ResolveAssemblyReference.cache
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\obj\Debug\Deneme5.dll
+c:\users\melih\documents\visual studio 2010\Projects\Deneme5\Deneme5\obj\Debug\Deneme5.pdb
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\bin\Deneme5.dll
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\bin\Deneme5.pdb
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\bin\EntityFramework.dll
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\bin\EntityFramework.xml
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\obj\Debug\Deneme5.dll
+C:\Users\melih.sagiroglu\Desktop\Deneme5\Deneme5\obj\Debug\Deneme5.pdb
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\bin\Deneme5.dll
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\bin\Deneme5.pdb
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\bin\EntityFramework.dll
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\bin\EntityFramework.xml
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\obj\Debug\Deneme5.dll
+C:\Users\Melih\Desktop\Product_SLN\Deneme5\Deneme5\obj\Debug\Deneme5.pdb
